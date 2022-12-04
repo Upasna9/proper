@@ -48,7 +48,7 @@ ul {
     text-decoration: none;
     letter-spacing: 0.05em;
     
-    display: inline-block;
+   
     padding: 10px;
     position: relative;
   }
@@ -56,7 +56,7 @@ ul {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
-    display: block;
+    
     height: 2px;
     left: 50%;
     position: absolute;
@@ -76,7 +76,7 @@ ul {
   
 header ul li{
 	display: inline-block;
-	margin:10px 10px;
+
 }
 header ul li:last-child{
 	margin-right: 0;
@@ -216,5 +216,9 @@ header ul li a{
 }
 @media screen and (max-width: 720px) {
     .site{font-size:20px;}
+
+    .home-inner{
+        margin-left:10px;
+    }
     
 }
